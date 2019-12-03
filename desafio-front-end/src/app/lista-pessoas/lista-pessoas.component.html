@@ -1,0 +1,11 @@
+<div class="row">
+    <div class="col-sm-3 offset-sm-4 col-12">
+        <div class="card mb-2 text-center" *ngFor="let p of pessoas" style="width: 18rem;">
+            <img class="card-img-top" src="{{ p.img }}" alt="{{ p.nome }}">
+            <div class="card-body">
+                <h2 class="card-text">{{ p.nome }}</h2>
+                <a href="#" onclick="return false;" class="btn btn-primary btn-block">Visualizar</a>
+            </div>
+        </div>
+    </div>
+</div>
